@@ -1,0 +1,89 @@
+
+
+/* Universal Elements */
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+
+}
+
+
+
+
+/* Nav */
+
+/*nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}*/
+
+.active {
+  color: #399bd1 !important;
+}
+
+.logo {
+}
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.navbar a {
+  color: gray;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  float: left;
+}
+
+.navbar-nav li {
+  padding: 15px;
+}
+
+
+.nav {
+  list-style: none;
+}
+
+
+
+
+
+
+/* Jumbotron */
+
+.jumbotron {
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-family: 'Monoton', cursive;
+  text-transform: uppercase;
+}
+
+.jumbotron-bike {
+  background-image: url("../../resources/images/jumbotron-bike.jpg");
+}
+
+.jumbotron a {
+  text-shadow: none;
+}
+
+.btn-primary {
+  transition: box-shadow 200ms ease-in 20ms;
+}
+
+.btn-primary:hover {
+  box-shadow: 5px 5px 20px rgba(50, 46, 46, 0.5);
+}
+
+.btn-primary:visited {
+  background-color: rgb(40,96,144);
+  border-color: rgb(40,96,144);
+}
