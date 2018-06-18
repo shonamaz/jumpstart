@@ -24,7 +24,7 @@
 }*/
 
 .navbar-nav li {
-  padding: 15px;
+  padding: 5px;
 }
 
 .jumbotron {
@@ -139,6 +139,18 @@ h3 {
   background-image: url("../../resources/images/jumbotron-bike.jpg");
 }
 
+.jumbotron-beer {
+  background-image: url("../../resources/images/jumbotron-beer.jpg");
+}
+
+.jumbotron-flowers {
+  background-image: url("../../resources/images/jumbotron-flowers.jpg");
+}
+
+.jumbotron-duffel {
+  background-image: url("../../resources/images/jumbotron-duffel.jpg");
+}
+
 
 
 /* Featured Project */
@@ -185,7 +197,7 @@ h3 {
 @media only screen and (max-width: 788px) {
   .jumbotron-text-container {
     width: 80%;
-    padding-top: 5rem;
+    padding-top: 8rem;
     padding-bottom: 5rem;
   }
 
@@ -194,22 +206,26 @@ h3 {
   }
 
   .having-trouble-text {
-    text-align: center;
     width: 80%;
 }
 
-@media only screen and (max-width: 767px) {
-  /* .navbar-nav {
-    flex-direction: column;
-  }
+@media only screen and (max-width: 575px) {
 
-  .navbar-nav li {
-    padding: 5px;
-  }
- */
 #nav-logo {
     display: none !important;
   }
 
+  .jumbotron-text-container {
+    padding-top: 11rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 615px) {
+
+  .jumbotron h1 {
+    font-size: 3.4rem;
+  }
 
 }
